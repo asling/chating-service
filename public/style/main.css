@@ -1,0 +1,72 @@
+/*基本css定义*/
+.inline_block{display:inline-block;_display:inline;*display:inline;_zoom:1;*zoom:1;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.positionRelative{position: relative;}
+.positionAbsolute{position:absolute;}
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+/*头部，底部css控制*/
+body{background-color:#f7f7f7}
+.head,.head .head-title,.head .exit{height:42px;}
+.head,.main-container,.footer{width:100%;}
+.head{background-color:#fff;text-align:center;border-bottom:1px solid #dcdcdc;position:fixed;top:0;left:0;}
+.main-container{padding:43px 1.9% 70px;;position:relative;z-index: -1;/**/}
+.footer{position:fixed;bottom:0;left:0;background-color:#fff;height:50px;}
+.head .head-title{color:#111;font-size:1.3em;position:relative;width:100%;line-height:42px;}
+.head .exit{color:#4f94ce;position:absolute;bottom:0;right:1em;font-size:0.8em;line-height:46px;}
+
+/*main部分css*/
+.more-overlay:before,.more-overlay .files-item:before,.more-overlay .files-sign:before,.service .avatar,.service .message:before,.user .message:before,.success .upload-status,.fail .upload-status{background: url("../images/collections.png") no-repeat}
+.main-container .article-inner{margin:20px 0 35px;}
+.chat-name{color:#bdbdbd;text-align:center;margin-bottom:20px;}
+.avatar{text-indent:-1000em;overflow:hidden;}
+.message{font-size:1.2em;border-radius:2px;}
+.service .message{box-shadow:1px 3px 1px 0 #d9d9d9}
+.user .message{box-shadow:-1px 1px 1px 0 #548bc6}
+.service .message:before,.user .message:before{content:"";position:absolute;background-size:39px auto;}
+.service .message:before{left:-15px;top:10px;width:15px;height:24px;background-position: 9px -141px;}
+.user .message:before{right:-15px;top:10px;width:15px;height:24px;background-position: 0 -60px;}
+.service .avatar{max-width:78px;max-height:78px;float:left;width: 2.785em; height: 2.785em; background-position: 0 -86px;background-size:100%;margin-right:4%;}
+.service .type1{width:73.4%;background-color:#fff;border:1px solid #e9e9e9;float:left;}
+.service .type1 .inner{padding:8px 10px;}
+.service .type1 .message-title{color:#333;font-size:1.2em;}
+.service .type1 .message-item{margin:3% 0;}
+.service .type1 .message-item a{border-radius:2px;background-color:#4191eb;color:#fff;display:block;width:100%;height:100%;padding:3% 0;text-align:center;}
+.type2{max-width:73.4%;}
+.type2 .inner{padding:8px 10px;}
+.user .avatar{max-width:42px;max-height:42px;float:right;margin-left:3%;width:1.571em;height:1.571em;}
+.user .message{float:right;background-color:#4191eb;color:#fff}
+.service .message{float:left;background-color:#fff;color:#333}
+.type3{max-width:30.5%;}
+.type3 .inner{padding:5px;}
+.type3 img{max-width: 100%;height:auto;}
+.type3 .message-content{position:relative;}
+.modal{width:100%;height:100%;background:rgba(0,0,0,0.8);color:#fff;font-size:1.4em;left:0;top:0;text-align:center;}
+.modal .percent{position:absolute;top:50%;margin-top:-17px;height:34px;width:100%;text-align:center;line-height:34px;}
+.progress{position:absolute;bottom:-2em;width:100px;border:1px solid #4191eb;border-radius:3px;height:3px;left:50%;margin-left:-50px;}
+.progress .bar{background-color:#4191eb;height: 100%;width:0;font-size:0;}
+.input-box{border:1px solid #dedde3;border-left:0 none;border-right:0 none;padding:10px 0;}
+.input-box .message-field{display:block;border:0 none;height:30px;}
+.more{left:10px;width:22px;height:22px;border-radius:11px;line-height:22px;text-align:center;font-size:15px;color:#adadad;border:1px solid #adadad;}
+.more-overlay{max-width:160px;position:absolute;width:25%;background-color:#fff;border:1px solid #ccc;border-radius:2px;bottom:60px;left:10px;}
+.more-overlay *{color:#333;}
+input[type=file]{display:none;}
+.more-overlay li{margin:0 2%;padding:10% 0 10% 32%;text-align: center;font-size:1.2em;position:relative;border-bottom:1px solid #ccc;}
+.more-overlay li:last-of-type{border:0 none;}
+.more-overlay .files-item:before,.more-overlay .files-sign:before{top:50%;left:17%;margin-top:-6px;}
+.more-overlay .files-item:before{width:14px;height:11px;content:"";position:absolute;background-position: 0 -168px;background-size:39px auto;}
+.more-overlay .files-sign:before{width:13px;height:13px;content:"";position:absolute;background-position: 0 -194px;background-size:39px auto;}
+.message-submit{right:10px;width:44px;height:30px;background-color:#4191eb;color:#fff;border:0 none;border-radius:3px;line-height:30px;text-align:center;}
+.input-box .message-field,.message-submit{font-size:1.2em;}
+.message-holder,.input-box .message-field{width:100%;}
+.more,.message-submit{top:10px}
+.message-holder .inner{margin:0 64px 0 44px;border:1px solid #dfdfdf;border-radius:3px;padding:0 5px}
+.upload-status{display:none;width:16px;height:16px;background-position: 0 0;background-size:39px auto;position:absolute;top:50%;margin-top:-8px;left:-2em;}	
+.success .upload-status{background-position:0 0;}	
+.fail .upload-status{background-position:0 -31px;}
+.fail .upload-status,.success .upload-status{display:block;background-size:39px auto;}
+.more-overlay:before{background-position: 0 -446px;content:"";position:absolute;width:20px;height:10px;bottom:-10px;left:1px;}
+/*iscroll css调整*/
+.iscroll-work  .footer,.iscroll-work .main-container,.iscroll-work .head{position:absolute;}
+.iscroll-work .main-container{overflow:hidden;top:43px;bottom:50px;padding-top:0;padding-bottom:0;}
+.iscroll-work .content-container{position: absolute;width: 100%;z-index: 1;}

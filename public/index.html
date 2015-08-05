@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>chating service</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection"content="telephone=no, email=no" />
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="MobileOptimized" content="320">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="browsermode" content="application">
+		<meta name="x5-page-mode" content="app">
+		<meta name="msapplication-tap-highlight" content="no">
+		
+		<link rel="stylesheet" type="text/css" href="style/reset.css" />
+		<link rel="stylesheet" type="text/css" href="style/main.css" />
+		
+	</head>
+
+	<body class="">
+	<div>
+		<header class="head">
+			<h1 class="head-title inline_block">交易猫在线客服<a class="exit" href="javascript:;">退出</a></h1>
+		</header>
+		
+		<div class="main-container" id="wrapper">
+			<div class="content-container" id="container">
+				<article class="service clearfix">
+					<div class="article-inner">
+						<div class="chat-name service-type">交易猫在线客服-自动回复:  17:57:17</div>
+						<div class="avatar">客服1</div>
+						<div class="message type1 positionRelative">
+							<div class="inner">
+								<h3 class="message-title">请选择咨询类型：</h3>
+								<ul>
+									<li class="message-item"><a>商品问题</a></li>
+									<li class="message-item"><a>交易问题</a></li>
+									<li class="message-item"><a>游戏/客服端/区服问题</a></li>
+									<li class="message-item"><a>其他问题</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="input-box clearfix positionRelative">
+				<form id="messageForm"  accept-charset="multipart/form-data" >
+					<div class="more positionAbsolute" id="moreButton">+</div>
+					<div class="more-overlay positionRelative" id="moreOverlay" style="display:none">
+						<ul>
+							<li class="files-item"><input id="fileElem" type="file" name="myFile" multiple="multiple" /><a id="fileSelect">发图</a></li>
+							<li class="files-sign"><a>登陆</a></li>
+						</ul>
+					</div>
+					<div class="message-holder"><div class="inner"><input  class="message-field" type="text" name="content" value="" /></div></div>
+					<input class="message-submit positionAbsolute" id="submitButton" type="submit" value="发送" />
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	</body>
+	
+	
+	<script src="http://cdn.bootcss.com/zepto/1.1.6/zepto.min.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</html>

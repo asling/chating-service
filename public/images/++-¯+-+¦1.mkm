@@ -1,0 +1,10 @@
+<MKM version="2.0" imageFileUrl="file:///E:/www/uc/public/images/%e5%9c%a8%e7%ba%bf%e5%ae%a2%e6%9c%8d1.jpg">
+  <Marks>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="5" color="16711680" targetColor="5215438" offsetX="25" offsetY="10" x="588" y="84"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="16250871" offsetX="25" offsetY="10" x="432" y="154"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14474460" offsetX="25" offsetY="10" x="44" y="126"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14474460" offsetX="25" offsetY="10" x="357" y="126"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="16777215" offsetX="25" offsetY="10" x="523" y="84"/>
+    <LengthMark direction="12" color="16711680" length="194" x="377" y="270"/>
+  </Marks>
+</MKM>

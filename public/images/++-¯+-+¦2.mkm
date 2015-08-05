@@ -1,0 +1,23 @@
+<MKM version="2.0" imageFileUrl="file:///E:/www/uc/public/images/%e5%9c%a8%e7%ba%bf%e5%ae%a2%e6%9c%8d2.jpg">
+  <Marks>
+    <LengthMark direction="12" color="16711680" length="73" x="11" y="235"/>
+    <LengthMark direction="12" color="16711680" length="41" x="591" y="445"/>
+    <LengthMark direction="12" color="16711680" length="472" x="105" y="350"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="4297195" offsetX="25" offsetY="10" x="112" y="477"/>
+    <LengthMark direction="3" color="16711680" length="26" x="257" y="332"/>
+    <LengthMark direction="3" color="16711680" length="51" x="232" y="509"/>
+    <LengthMark direction="3" color="16711680" length="22" x="184" y="523"/>
+    <LengthMark direction="3" color="16711680" length="27" x="189" y="127"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14277081" offsetX="25" offsetY="10" x="234" y="329"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="5540806" offsetX="25" offsetY="10" x="245" y="405"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14605795" offsetX="25" offsetY="10" x="275" y="863"/>
+    <LengthMark direction="12" color="16711680" length="105" x="534" y="904"/>
+    <LengthMark direction="3" color="16711680" length="83" x="120" y="43"/>
+    <LengthMark direction="12" color="16711680" length="12" x="0" y="157"/>
+    <LengthMark direction="12" color="16711680" length="473" x="101" y="216"/>
+    <LengthMark direction="3" color="16711680" length="18" x="97" y="865"/>
+    <LengthMark direction="12" color="16711680" length="45" x="20" y="907"/>
+    <LengthMark direction="12" color="16711680" length="88" x="532" y="925"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="4297195" offsetX="25" offsetY="10" x="331" y="482"/>
+  </Marks>
+</MKM>
